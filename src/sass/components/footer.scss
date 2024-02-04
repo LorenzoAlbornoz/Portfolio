@@ -1,0 +1,52 @@
+.footer {
+    background-color: #000;
+    color: lightgray;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+       
+        text-align: center;
+    }
+
+    &__text{
+        text-align: center;
+    }
+
+    &__title{
+        color: var(--fern-400);;
+    }
+
+    .contactIcons {
+        font-size: 1.75rem; // Ajusta el tamaño de la fuente según sea necesario
+        margin-top: 5px;
+        margin-right: 5px; // Añade un espacio entre el ícono y el texto
+    }
+    
+    &__linkFooter{
+        text-decoration: none;
+        color: white;
+    }
+
+    &__linkContacto{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        ul {
+            margin-left: 0rem;
+            text-align: justify;
+        }
+        &__text{
+            text-align: justify;
+            margin-left: 0rem;
+        }
+        &__title{
+            text-align: justify;
+            margin-left: 0rem;
+        }
+    }
+}
