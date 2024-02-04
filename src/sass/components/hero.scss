@@ -1,0 +1,47 @@
+.hero-container {
+    height: 90vh;
+    background: linear-gradient(
+      90deg,
+      rgba(99, 183, 228, 1) 0%,
+      rgba(52, 152, 219, 1) 11%,
+      rgba(33, 133, 208, 1) 37%,
+      rgba(33, 133, 208, 1) 60%,
+      rgba(52, 152, 219, 1) 85%,
+      rgba(99, 183, 228, 1) 100%
+    );
+    color: #fff;
+    position: relative;
+  }
+  
+  .imgMe {
+    width: 20rem;
+    filter: contrast(0.9) brightness(0.8);
+  }
+  
+  .imgMeContainer {
+    width: 20rem;
+    height: 20rem;
+    min-height: 20rem;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -1px 9px 27px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 9px 27px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 27px 4px rgb(0 0 0 / 75%);
+  }
+  
+  .secondaryText {
+    color: #000;
+    font-size: 2.5rem;
+  }
+  
+  .myName {
+    font-size: 3.5rem;
+  }
+  
+  .saludo {
+    color: #000;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
