@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+  --fern-50: #ebf8ff;
+  --fern-100: #d1eeff;
+  --fern-200: #a7d8ff;
+  --fern-300: #7cc1f2;
+  --fern-400: #3ca4f5;
+  --fern-500: #0077cc;
+  --fern-600: #005384;
+  --fern-700: #00406e;
+  --fern-800: #002e52;
+  --fern-900: #001e38;
+  --fern-950: #000f1d;
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans'
+}
+
+h5 {
+font-size: 20px;
+}
+
+
