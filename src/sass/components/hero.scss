@@ -2,12 +2,12 @@
     height: 90vh;
     background: linear-gradient(
       90deg,
-      rgba(99, 183, 228, 1) 0%,
-      rgba(52, 152, 219, 1) 11%,
-      rgba(33, 133, 208, 1) 37%,
-      rgba(33, 133, 208, 1) 60%,
-      rgba(52, 152, 219, 1) 85%,
-      rgba(99, 183, 228, 1) 100%
+      rgba(255, 199, 7, 1) 0%,    /* Amarillo */
+      rgba(255, 180, 0, 1) 11%,    /* Amarillo oscuro */
+      rgba(255, 157, 0, 1) 37%,    /* Amarillo más oscuro */
+      rgba(255, 157, 0, 1) 60%,    /* Amarillo más oscuro */
+      rgba(255, 180, 0, 1) 85%,    /* Amarillo oscuro */
+      rgba(255, 199, 7, 1) 100%    /* Amarillo */
     );
     color: #fff;
     position: relative;
