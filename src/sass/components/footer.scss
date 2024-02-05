@@ -27,11 +27,16 @@
         color: white;
     }
 
+    &__linkFooter:hover {
+        color: var(--fern-400);
+    }
+
     &__linkContacto{
         text-decoration: none;
         color: white;
     }
 }
+
 
 @media screen and (max-width: 768px) {
     .footer {
