@@ -3,7 +3,7 @@ import React from 'react';
 const Habilidades = () => {
     return (
         <div className='skillsContainer'>
-          <div className='container py-5 my-5' id='aboutMe'>
+          <div className='container py-3 py-md-5 my-md-5' id='aboutMe'>
             <div className="row d-flex justify-content-around">
             <h3>Mis Skills:</h3>
               <div className="col-12 col-md-12 d-flex flex-wrap justify-content-center mt-5 mt-md-0">

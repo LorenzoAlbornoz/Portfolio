@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className='aboutContainer'>
-        <div className='container py-5' id='aboutMe'>
+        <div className='container py-4 py-md-5' id='aboutMe'>
           <h2>Sobre Mi</h2>
           <div className="row d-flex justify-content-between">
             <div className="col-12 col-md-5 custom-text-container">
