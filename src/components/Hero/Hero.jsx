@@ -18,7 +18,7 @@ const Hero = () => {
               data-aos-offset="200"
               data-aos-once="false"
             >
-              <img className="imgMe" src="" alt="" />
+              <img className="imgMe" src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707184428/imagen_Lorenzo1_udlbv7.jpg" alt="" />
             </div>
             <div className="text-center" data-aos="fade-left">
               <h2 className="mb-0 saludo">¡Hola!</h2>

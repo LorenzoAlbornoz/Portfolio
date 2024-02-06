@@ -9,7 +9,7 @@ const Servicios = () => {
         <section className='px-5 py-5 servicesContainer' id='services'>
             <div className='container pt-3'>
                 <h2 className='titleServices'>Servicios</h2>
-                <h5>Descubre los servicios que puedo ofrecerte</h5>
+                <h5 className='text-center'>Descubre los servicios que puedo ofrecerte</h5>
                 <div className="row">
                     <div className="col d-flex gap-4 py-5 flex-wrap justify-content-center">
                         <div className='text-center cardServices'>
