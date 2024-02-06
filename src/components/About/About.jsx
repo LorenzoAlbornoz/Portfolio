@@ -1,11 +1,12 @@
 import React from 'react';
+import Button from 'react-bootstrap/esm/Button'
 
 const About = () => {
   return (
     <>
       <div className='aboutContainer'>
         <div className='container py-4 py-md-5' id='aboutMe'>
-          <h2>Sobre Mi</h2>
+          <h2>Sobre Mí</h2>
           <div className="row d-flex justify-content-between">
             <div className="col-12 col-md-5 custom-text-container">
               <h4 className='pt-3'>¿Quién soy?</h4>
@@ -17,11 +18,12 @@ const About = () => {
 
                 Cada día es una oportunidad para expandir mis habilidades y conocimientos en el desarrollo web, y estoy ansioso por contribuir de manera significativa en este emocionante y dinámico campo. ¡Espero con entusiasmo las nuevas oportunidades y desafíos que el futuro me depara!<br /><br />
               </p>
+              <Button href='https://drive.google.com/file/d/13_0CdCFZOE_cz65ztaAvxdWjMdVs6ruU/view?usp=sharing' target='blank'>Descargar CV</Button>
             </div>
 
             <div className="col-12 col-md-5 d-flex flex-column justify-content-center mt-5 mt-md-0">
-              {/* Imagen Vertical */}
-              <img className='w-100 d-md-block d-none' src="https://images.pexels.com/photos/7988081/pexels-photo-7988081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="foto_vertical" />
+           
+              <img className='w-100 d-md-block d-none' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707185924/WhatsApp_Image_2024-02-05_at_23.18.04_a3jpqd.jpg" alt="foto_vertical" />
             </div>
           </div>
         </div>
