@@ -1,0 +1,47 @@
+.hero-container {
+    height: 90vh;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 199, 7, 1) 0%,    /* Amarillo */
+      rgba(255, 180, 0, 1) 11%,    /* Amarillo oscuro */
+      rgba(255, 157, 0, 1) 37%,    /* Amarillo más oscuro */
+      rgba(255, 157, 0, 1) 60%,    /* Amarillo más oscuro */
+      rgba(255, 180, 0, 1) 85%,    /* Amarillo oscuro */
+      rgba(255, 199, 7, 1) 100%    /* Amarillo */
+    );
+    color: #fff;
+    position: relative;
+  }
+  
+  .imgMe {
+    width: 20rem;
+    filter: contrast(0.9) brightness(0.8);
+  }
+  
+  .imgMeContainer {
+    width: 20rem;
+    height: 20rem;
+    min-height: 20rem;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -1px 9px 27px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 9px 27px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 27px 4px rgb(0 0 0 / 75%);
+  }
+  
+  .secondaryText {
+    color: #000;
+    font-size: 2.5rem;
+  }
+  
+  .myName {
+    font-size: 3.5rem;
+  }
+  
+  .saludo {
+    color: #000;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
