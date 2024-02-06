@@ -10,7 +10,20 @@ const Proyectos = () => {
             <h5>Aqui puedes ver algunos de los proyectos en los que trabajé</h5>
             </div>
             <div className="col d-flex justify-content-around py-5 flex-wrap gap-3">
-                
+
+                 <CardProject 
+                title={'Invitacion Digital Casamiento'} 
+                text={'Página web para bodas con un diseño elegante y adaptable. Incluyó un carrusel de fotos, una cuenta regresiva para el evento y secciones informativas sobre la ceremonia y recepción.'}
+                site={'https://bodabelyloren.netlify.app/'}
+                repo={'https://github.com/LorenzoAlbornoz/Invitacion1'}
+                img={'https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707225691/boda_j9wxuv.png'}
+            />
+                             <CardProject 
+                title={'Entiendados'} 
+                text={'Desarrollé una página web de accesorios para iPhone. Presentación detallada de productos y organización por categorías, brindando a los usuarios una experiencia de compra visualmente atractiva.'}
+                repo={'https://github.com/LorenzoAlbornoz/Entiendados'}
+                img={'https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707226227/entiendados_giplcn.png'}
+            />
             <CardProject 
                 title={'Informate'} 
                 text={'Diseño web completamente responsive de un diario online utilizando HTML, CSS y Bootstrap 5.2.3 para garantizar una experiencia óptima en diferentes dispositivos.'}
