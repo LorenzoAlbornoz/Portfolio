@@ -26,7 +26,7 @@ const Proyectos = () => {
                         img={'https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707226227/entiendados_giplcn.png'}
                     />
                     <CardProject
-                        title={'Informate'}
+                        title={'Informante'}
                         text={'Diseño web completamente responsive de un diario online utilizando HTML, CSS y Bootstrap 5.2.3 para garantizar una experiencia óptima en diferentes dispositivos.'}
                         site={'https://proyectogrupo5.netlify.app/'}
                         repo={'https://github.com/LorenzoAlbornoz/ProyectoBoostrap'}
