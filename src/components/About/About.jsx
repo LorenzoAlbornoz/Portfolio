@@ -18,7 +18,7 @@ const About = () => {
 
                 Cada día es una oportunidad para expandir mis habilidades y conocimientos en el desarrollo web, y estoy ansioso por contribuir de manera significativa en este emocionante y dinámico campo. ¡Espero con entusiasmo las nuevas oportunidades y desafíos que el futuro me depara!<br /><br />
               </p>
-              <Button href='https://drive.google.com/file/d/1NPwmpNCTZzWcWjYGMUuykS1EYb1q0ef1/view?usp=sharing' target='blank'>Descargar CV</Button>
+              <Button href='https://drive.google.com/file/d/1PcwcUwoi2j-yvgNrVupC8GbkBxP6jjcn/view?usp=sharing' target='blank'>Descargar CV</Button>
             </div>
 
             <div className="col-12 col-md-5 d-flex flex-column justify-content-center mt-5 mt-md-0">
