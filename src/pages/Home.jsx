@@ -30,7 +30,7 @@ const scrollToTopButton = {
   borderRadius: '50%',
   width: '40px', // Aumentar el ancho del botón
   height: '40px', // Aumentar la altura del botón
-  lineHeight: '60px', // Centrar el texto verticalmente
+  lineHeight: '40px', // Centrar el texto verticalmente
   fontSize: '24px', // Aumentar el tamaño del ícono
   color: '#fff',
   cursor: 'pointer',
