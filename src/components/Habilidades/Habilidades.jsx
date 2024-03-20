@@ -5,35 +5,51 @@ const Habilidades = () => {
         <div className='skillsContainer'>
           <div className='container py-3 py-md-5 my-md-5' id='aboutMe'>
             <div className="row d-flex justify-content-around">
-            <h3>Mis Skills:</h3>
+            <h3 className='mb-5'>Mis Skills:</h3>
               <div className="col-12 col-md-12 d-flex flex-wrap justify-content-center mt-5 mt-md-0">
-                <div className='text-center me-4'>
-                  <img className='w-80' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1700316292/Porfolio/icons8-html-100_anucbf.png" alt="html" />
-                  <p><strong>HTML</strong></p>
+              <div className='text-center me-5'>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943261/file_type_vscode_icon_130084_pzmitu.png" alt="html" />
+                  <p className='mt-2'><strong>Visual Studio</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707135887/icons8-css-100_yhtjay_jhbz1t.png" alt="html" />
-                  <p><strong>CSS</strong></p>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943270/file_type_html_icon_130541_jweaie.png" alt="html" />
+                  <p className='mt-2'><strong>HTML</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707135841/icons8-javascript-100_vdwv11_j6zj0z.png" alt="html" />
-                  <p><strong>JAVASCRIPT</strong></p>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943268/file_type_css_icon_130661_qoy7pb.png" alt="html" />
+                  <p className='mt-2'><strong>CSS</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707135804/icons8-react-a-javascript-library-for-building-user-interfaces-100_kuv4ej_rmvl2r.png" alt="html" />
-                  <p><strong>REACT</strong></p>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943275/javascript_icon_130900_ut6sgk.png" alt="html" />
+                  <p className='mt-2'><strong>JAVASCRIPT</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707135764/icons8-nodejs-100_brz2xm_hbbe9m.png" alt="html" />
-                  <p><strong>NODE JS</strong></p>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943259/bootstrap_plain_logo_icon_146619_wlxwz9.png" alt="html" />
+                  <p className='mt-2'><strong>Bootstrap</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707135724/icons8-expresar-js-100_xolxw1_cgk2fl.png" alt="html" />
-                  <p><strong>EXPRESS JS</strong></p>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943263/file_type_sass_icon_130182_xcaohh.png" alt="html" />
+                  <p className='mt-2'><strong>SASS</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707135665/icons8-mongodb-100_px3q3f_wx84fd.png" alt="html" />
-                  <p><strong>MONGODB</strong></p>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943264/git_original_wordmark_logo_icon_146510_j8seez.png" alt="html" />
+                  <p className='mt-2'><strong>GIT</strong></p>
+                </div>
+                <div className='text-center me-5'>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943272/react_original_logo_icon_146374_vipvs2.png" alt="html" />
+                  <p className='mt-2'><strong>REACT</strong></p>
+                </div>
+                <div className='text-center me-5'>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943266/nodejs_original_wordmark_logo_icon_146412_wkus9j.png" alt="html" />
+                  <p className='mt-2'><strong>NODE JS</strong></p>
+                </div>
+                <div className='text-center me-5'>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943583/mongodb_original_logo_icon_146424_t2kzjf.png" alt="html" />
+                  <p className='mt-2'><strong>MONGODB</strong></p>
+                </div>
+                <div className='text-center me-5'>
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943842/express_original_wordmark_logo_icon_146528_rd2wsd.png" alt="html" />
+                  <p className='mt-2'><strong>EXPRESS</strong></p>
                 </div>
               </div>
             </div>
