@@ -9,7 +9,7 @@ const Habilidades = () => {
               <div className="col-12 col-md-10 d-flex flex-wrap justify-content-center mt-5 mt-md-0">
               <div className='text-center me-5'>
                   <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710952511/file_type_vscode_icon_130084_2_atpjiv.png" alt="html" />
-                  <p><strong>Visual Studio</strong></p>
+                  <p><strong>VISUAL STUDIO</strong></p>
                 </div>
                 <div className='text-center me-5'>
                   <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710952008/file_type_html_icon_130541_ciddzd.png" alt="html" />
@@ -25,7 +25,7 @@ const Habilidades = () => {
                 </div>
                 <div className='text-center me-5'>
                   <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710952003/bootstrap_plain_logo_icon_146619_mxrbns.png" alt="html" />
-                  <p className='mt-2'><strong>Bootstrap</strong></p>
+                  <p className='mt-2'><strong>BOOTSTRAP</strong></p>
                 </div>
                 <div className='text-center me-5'>
                   <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710952002/sass_original_logo_icon_146350_okn2lb.png" alt="html" />
