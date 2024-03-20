@@ -9,8 +9,10 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import emailjs from '@emailjs/browser';
 import { Spinner } from 'react-bootstrap';
 import Swal from 'sweetalert2';
+import { FaExclamationCircle } from 'react-icons/fa';
 
 const Contacto = () => {
+  const [userNotFound, setUserNotFound] = useState(false);
   const [loading, setLoading] = useState(false);
   const {
     register,
@@ -41,6 +43,7 @@ const Contacto = () => {
       }
       setLoading(false);
     } catch (error) {
+      setUserNotFound(true);
       Swal.fire({
         icon: 'error',
         title: `Ocurrió un problema! Error${error.text}`,
@@ -75,7 +78,9 @@ const Contacto = () => {
                     name='user_name'
                     {...register('user_name')}
                   />
-                  <p className='text-danger my-1'>{errors.user_name?.message}</p>
+                  {errors.user_name && (
+                  <p className='text-danger my-1'><FaExclamationCircle />{errors.user_name?.message}</p>
+                  )}
                 </Col>
               </Row>
               <Row className='mb-3'>
@@ -87,7 +92,9 @@ const Contacto = () => {
                     name='user_email'
                     {...register('user_email')}
                   />
-                  <p className='text-danger my-1'>{errors.user_email?.message}</p>
+                  {errors.user_email && (
+                  <p className='text-danger my-1'><FaExclamationCircle />{errors.user_email?.message}</p>
+                  )}
                 </Col>
               </Row>
               <Row className='mb-3'>
@@ -101,7 +108,9 @@ const Contacto = () => {
                     name='message'
                     {...register('message')}
                   />
-                  <p className='text-danger my-1'>{errors.message?.message}</p>
+                   {errors.message && (
+                  <p className='text-danger my-1'><FaExclamationCircle />{errors.message?.message}</p>
+                   )}
                 </Col>
               </Row>
               <Row>

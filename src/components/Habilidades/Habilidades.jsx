@@ -48,7 +48,7 @@ const Habilidades = () => {
                   <p className='mt-2'><strong>MONGODB</strong></p>
                 </div>
                 <div className='text-center me-5'>
-                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710943842/express_original_wordmark_logo_icon_146528_rd2wsd.png" alt="html" />
+                  <img className='w-100' src="https://res.cloudinary.com/dcwpf7ghu/image/upload/v1710946350/express_original_logo_icon_146527_uzzgas.png" alt="html" />
                   <p className='mt-2'><strong>EXPRESS</strong></p>
                 </div>
               </div>
