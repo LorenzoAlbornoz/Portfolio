@@ -110,7 +110,7 @@ const Contacto = () => {
                     <Spinner animation='border' role='status' />
                   </div>
                 ) : (
-                  <Button type='submit' className='btn btn-secondary'>
+                  <Button type='submit' className='btn btn-dark'>
                     Enviar
                   </Button>
                 )}
