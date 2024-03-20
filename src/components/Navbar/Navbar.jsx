@@ -31,10 +31,10 @@ const NavbarM = ({ currentSection }) => {
             <Nav.Link className='itemLink' href='#contact'>Contacto</Nav.Link>
           </Nav>
           <Nav className="d-flex gap-1">
-            <Nav.Link href="https://www.linkedin.com/" target="_blank">
+            <Nav.Link href="https://www.linkedin.com/in/lorenzoalbornoz/" target="_blank">
             <FaLinkedin className="iconsNavBar" style={{ color: 'white' }} />
             </Nav.Link>
-            <Nav.Link href="https://github.com/" target="_blank">
+            <Nav.Link href="https://github.com/LorenzoAlbornoz" target="_blank">
             <FaGithub className="iconsNavBar" style={{ color: 'white' }} />
             </Nav.Link>
           </Nav>
