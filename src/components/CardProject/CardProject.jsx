@@ -11,9 +11,9 @@ const CardProject = ({title, text, site, repo, img}) => {
       <Card.Text>
         {text}
       </Card.Text>
-      <div className='d-flex justify-content-around'>
-      <Button variant="secondary" href={site} target='blank'>Ir al sitio</Button>
-      <Button variant="secondary" href={repo} target='blank'>Ver repositorio</Button>
+      <div className='d-flex justify-content-center gap-5 '>
+      <Button variant="dark" href={site} target='blank'>Ir al sitio</Button>
+      <Button variant="dark" href={repo} target='blank'>Ver repositorio</Button>
       </div>
     </Card.Body>
   </Card>

@@ -14,12 +14,6 @@ const Home = () => {
   return (
     <>
       <NavbarM />
-      <ScrollToTop smooth onClick={()=>
-       { 
-        location.replace(`#hero`)
-      }
-      
-      }/>
       <Hero />
       <About />
       <Habilidades/>
@@ -27,8 +21,20 @@ const Home = () => {
       <Proyectos />
       <Contacto/>
       <Footer />
+      <ScrollToTop smooth style={scrollToTopButton} />
     </>
   )
 }
+
+const scrollToTopButton = {
+  borderRadius: '50%',
+  width: '60px', // Aumentar el ancho del botón
+  height: '60px', // Aumentar la altura del botón
+  lineHeight: '60px', // Centrar el texto verticalmente
+  fontSize: '24px', // Aumentar el tamaño del ícono
+  color: '#fff',
+  cursor: 'pointer',
+  position: 'fixed',
+};
 
 export default Home
