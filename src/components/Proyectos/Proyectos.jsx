@@ -46,6 +46,13 @@ const Proyectos = () => {
                         repo={'https://github.com/Fsalasgit/LAM-music-store'}
                         img={'https://res.cloudinary.com/dcwpf7ghu/image/upload/v1707143334/LAM-MUSIC-STORE_ku1bld.png'}
                     />
+                    <CardProject
+                        title={'Frabega'}
+                        text={'Sitio web construido con el stack MERN. Se destaca por el diseño de la base de datos, la implementacion de una plataforma de pagos y hasta la la lógica de negocio'}
+                        site={'https://frabega.netlify.app/'}
+                        repo={'https://github.com/LorenzoAlbornoz/Proyect-Back-End-Coder'}
+                        img={'https://res.cloudinary.com/dcwpf7ghu/image/upload/v1713737059/Frabega_sygyqe.png'}
+                    />
                 </div>
             </div>
         </div>
