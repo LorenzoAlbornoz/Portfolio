@@ -10,7 +10,7 @@ const About = () => {
           <div className="row d-flex justify-content-between">
             <div className="col-12 col-md-5 custom-text-container">
               <h4 className='pt-3'>¿Quién soy?</h4>
-              <h4>Soy Lorenzo Albornoz, Desarrollador Web Fullstack</h4>
+              <h4>Soy Lorenzo Albornoz, Desarrollador Fullstack</h4>
               <p className='custom-text mt-4'>
                 Mi trayectoria profesional ha experimentado una transformación significativa en los últimos dos años, ya que decidí sumergirme en el fascinante mundo digital, despertando así mi interés por el desarrollo web. Un giro de 180 grados en mi carrera, que también significó un emocionante viaje de aprendizaje y superación.<br /><br />
 
